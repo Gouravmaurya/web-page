@@ -1,0 +1,252 @@
+*{
+    font-family: cursive;
+    color: aliceblue;
+
+}
+/* body::before{
+    background:url("https://unsplash.com/photos/nrpJW67lFLU")
+} */
+
+
+body{
+    background-color: #2c2c2c;
+    height: auto;
+    /* background-image: url("C:\Users\ASUS\Desktop\project\IMG-20230427-WA0009.jpg"); */
+
+
+}
+/* .home{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 6% -1px;
+} */
+.home{
+    background: linear-gradient(#333333,#000000ed);
+    /* background-image: url("C:\Users\ASUS\Desktop\project\IMG-20230427-WA0009.jpg"); */
+    padding: 45px;
+    margin: 40px;
+    text-align: justify;
+    height: 100%; 
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0 ;
+    
+}
+.home-content{
+    width: 100%;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 400;
+    line-height: .5;
+    text-shadow: 8px 6px 5px #676969;
+}
+
+.home-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: .5;
+    padding-top: 20px;
+    line-height: unset;
+
+}
+
+.home-content p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0 40px;
+}
+
+/* ul {
+    display: block;
+    list-style-type: inherit;
+    margin-block-start: -2em;
+    margin-block-end: 1em;
+    margin-inline-start: 66px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+} */
+ol {
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    margin-inline-start: 86px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    flex-direction: column;
+}
+.pointers{
+    list-style: inherit;
+}
+
+
+.ponits{
+    padding-left: 0%;
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:larger;
+}
+a:hover{
+    color:ivory;
+
+}
+
+header{
+    position:relative;
+    padding: 0 ;
+    background-color:rgb(0 0 0 / 76%);
+    border-radius: 5px;
+ 
+}
+
+.navbar{
+    width: 95%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 5px 4px 3px #676969;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.action_btn{
+    background-color:rgb(56, 56, 56);
+    color: rgb(55, 55, 55);
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.66rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    background: yellowgreen;
+    border-radius: 40px;
+    font-size:19px;
+    color: #537cb9;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    margin: 8px;
+
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top:0 ;
+    left: 0;
+    inset: 0;
+    background: linear-gradient(45deg,rgb(62, 62, 62),rgb(23, 22, 22),rgb(11, 11, 11));
+    background-size: 200%;
+    background-position: 0 0; 
+    z-index: -1;
+    border-radius: 40px;
+    filter: blur(6px);
+    transition: .5s ease;
+    
+
+}
+
+.btn:hover::before{
+    background-position: 100% 0; 
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    top:0 ;
+    left: 0;
+    inset: 0;
+    background: linear-gradient(45deg,rgb(85, 85, 85),rgb(29, 29, 29),rgb(11, 11, 11));
+    background-position: 0 0;
+    background-size: 200%;
+    z-index: -1;
+    border-radius: 40px;
+    transition: .5s ease-in-out;
+    color: #4c72ab;
+
+}
+
+.btn:hover::after{
+    background-position: 100% 0;
+}
+
+/* .home-sci a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg,#f06,#3cf);
+    border-radius: 50%;
+    color: #fff;
+} */
+
+
+
+.image{
+    height: 400px;
+    width: auto;
+    border-radius: 100px;
+    overflow:hidden;
+    object-fit: cover;
+    
+}
+
+
+.home-img {
+    width: 410px;
+    height: 410px;
+
+}
+
+
+
+.image{
+    height: 400px;
+    width: auto;
+    border-radius: 100px;
+    overflow:hidden;
+    object-fit: cover;
+    
+}
